@@ -1,0 +1,17 @@
+body{
+    background-color: aqua;
+}
+h1{
+    color:aqua;
+    font-family: 'Times New Roman', Times, serif;
+}
+<head>
+<meta charset="UTF-8">
+<title>Seletor universal e tipo</title>
+<style>
+*{font-style: oblique;}
+body{background-position: 0cap;}
+{unicode-range: U+10A0-10FF;}
+*{font-variant-ligatures: common-ligatures;}
+</style>
+</head>
