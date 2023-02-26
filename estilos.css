@@ -1,17 +1,19 @@
-body{
-    background-color: aqua;
+*{
+    background-color: rgba(216, 100, 150, 0.416);     
+}
+#Rosa{
+   font-style: italic; 
 }
 h1{
-    color:aqua;
+    color:rgb(17, 26, 26);
     font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
 }
-<head>
-<meta charset="UTF-8">
-<title>Seletor universal e tipo</title>
-<style>
-*{font-style: oblique;}
-body{background-position: 0cap;}
-{unicode-range: U+10A0-10FF;}
-*{font-variant-ligatures: common-ligatures;}
-</style>
-</head>
+#Poema{
+    font-style: italic;
+    text-align: center; 
+}
+ 
+#tomas a:hover{
+    background-color: brown;
+}
