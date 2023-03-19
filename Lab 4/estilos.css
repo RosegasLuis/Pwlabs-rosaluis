@@ -1,0 +1,27 @@
+* {box-sizing: border-box;}
+…
+
+*{
+    background-color: rgba(131, 111, 68, 0.416);     
+}
+#Rosa{
+   font-style: italic; 
+}
+h1{
+    color:rgb(17, 26, 26);
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+#Poema{
+    font-style: italic;
+    text-align: center; 
+}
+ 
+#tomas a:hover{
+    background-color: rgba(238, 216, 163, 0.162);
+    content:counter(after); 
+}
+body {background-color: rgb(210, 199, 170);}
+@media (max-width: 600px) {
+body {background-color: rgb(48, 48, 54);}
+}
