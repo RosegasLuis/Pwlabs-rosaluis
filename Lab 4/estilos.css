@@ -25,3 +25,12 @@ body {background-color: rgb(210, 199, 170);}
 @media (max-width: 600px) {
 body {background-color: rgb(48, 48, 54);}
 }
+.parallax {
+    background-image: url("img.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    /* centrar e escalar imagem */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
