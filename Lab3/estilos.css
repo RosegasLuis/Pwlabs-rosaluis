@@ -1,32 +1,76 @@
-<style>
-{box-sizing: border-box;}
-.capitais{
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.flex-title-container {
+    height: 50vh;
+    width: 97, 5vw;
+    background-color: blueviolet;
+    color: white;
+    ;
+    font-size: 3rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.banner-container {
+    position: relative;
+}
+
+.banner-text {
+    position: absolute;
+    top: 0;
+    left: 3%;
+    color: white;
+    font-size: 2rem;
+}
+
+.flex-title-capitals-container {
+    height: auto;
+    width: 97, 5vw;
+    background-color: wheat;
+    color: white;
+    ;
+    font-size: 2rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.width-100 {
+    width: 100%;
+}
+
+.capitais {
     display: flex;
     flex-flow: row wrap;
-justify-content: space-around;
-align-items: space-around;
-background-color:rgb(238, 248,248)
-padding: 50px;
+    justify-content: space-around;
+    align-items: space-around;
+    background-color: rgb(238, 248, 248);
+    padding: 50px;
 }
-.capitais > div{
-display: flex;
-justify-content: space-around;
-border-radius: 20px;
-box-shadow: 5px 5px 15px #888888;
-margin: 10px;
+
+.capitais>div {
+    display: flex;
+    justify-content: space-around;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px #888888;
+    margin: 10px;
 }
-.capitais img{
+
+.capitais img {
     border-radius: 20px 0 0 20px;
     height: 100%;
 }
-.capitais div:last-child{
-    width: 150px;
-background-color: white;
-padding: 20px;
-border-radius: 0 20px 20px 0;
 
-display: flex;
-justify-content: center;
-align-items: center;
+.capitais div:last-child {
+    width: 250px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-</style>
