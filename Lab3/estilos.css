@@ -6,7 +6,7 @@ body {
 .flex-title-container {
     height: 50vh;
     width: 97, 5vw;
-    background-color: blueviolet;
+    background-image: linear-gradient(rgb(255, 217, 0), rgb(255, 64, 0),rgb(244, 239, 208));
     color: white;
     ;
     font-size: 3rem;
@@ -73,4 +73,19 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.Flex-xplorer-container{
+    border-radius: 0%;
+    position:center;
+    top: 1;
+    left: 3%;
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    background-color: red;
+background-image: url("paper.gif"); [🙂, 😕]
+background-repeat: repeat|no-repeat|repeat-x|repeat-y; [😕, 🙂, 🙂]
+background-attachment: fixed; [🙂]
+background-position: center | right | top | bottom | ...;
+background-size: 😎
+
 }
