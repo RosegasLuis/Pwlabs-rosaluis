@@ -75,17 +75,17 @@ body {
     align-items: center;
 }
 .Flex-xplorer-container{
+    height: 50vh;
+    width: 97, 5vw;
     border-radius: 0%;
-    position:center;
+    position:relative;
+    clip: rect(0px,60px,200px,0);
     top: 1;
-    left: 3%;
+    left: 0%;
     color: rgb(255, 255, 255);
-    font-size: 2rem;
-    background-color: red;
-background-image: url("paper.gif"); [🙂, 😕]
-background-repeat: repeat|no-repeat|repeat-x|repeat-y; [😕, 🙂, 🙂]
-background-attachment: fixed; [🙂]
-background-position: center | right | top | bottom | ...;
-background-size: 😎
-
-}
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 3rem;
+    background-color: rgba(255, 0, 0, 0.375);
+    
