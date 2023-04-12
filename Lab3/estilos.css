@@ -74,7 +74,7 @@ body {
     justify-content: center;
     align-items: center;
 }
-.Flex-xplorer-container{
+.cvvvFlex-xplorer-container{
     height: 50vh;
     width: 97, 5vw;
     border-radius: 0%;
@@ -88,4 +88,5 @@ body {
     display: flex;
     font-size: 3rem;
     background-color: rgba(255, 0, 0, 0.375);
+
     
