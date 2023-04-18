@@ -1,4 +1,4 @@
-body {
+.body {
     margin: 0;
     padding: 0;
 }
@@ -8,7 +8,6 @@ body {
     width: 97, 5vw;
     background-image: linear-gradient(rgb(255, 217, 0), rgb(255, 64, 0),rgb(244, 239, 208));
     color: white;
-    ;
     font-size: 3rem;
     align-items: center;
     justify-content: center;
@@ -30,7 +29,7 @@ body {
 .flex-title-capitals-container {
     height: auto;
     width: 97, 5vw;
-    background-color: wheat;
+    background-color: rgb(193, 52, 13);
     color: white;
     ;
     font-size: 2rem;
@@ -74,7 +73,7 @@ body {
     justify-content: center;
     align-items: center;
 }
-.cvvvFlex-xplorer-container{
+.Flex-xplorer-container{
     height: 50vh;
     width: 97, 5vw;
     border-radius: 0%;
@@ -87,6 +86,9 @@ body {
     justify-content: center;
     display: flex;
     font-size: 3rem;
-    background-color: rgba(255, 0, 0, 0.375);
-
-    
+    background-color: rgb(193, 52, 13);
+}
+/*para desaparecer a imagem*/
+.desaparece:hover{
+    opacity: 0.000000001;
+}
