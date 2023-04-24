@@ -1,8 +1,58 @@
-.Header{
-    
-}
-.body {
+* {
+    padding: 0; 
     margin: 0;
+    box-sizing:border-box;
+    font-family: sans-serif;
+  }
+  header div {
+    font-size: 2em;  
+    padding: 1em;
+    background-color:rgba(235, 69, 69, 0.863);
+    color: rgb(194, 48, 48);
+  }
+  
+  header nav {
+    display:flex;
+    justify-contents: flex-end;  
+  }
+  
+  
+  nav a {
+    padding: 0 1em;
+    text-decoration: none;
+    font-size: 1rem;
+    color: lightgray;
+  }
+  
+  
+  main {
+    height: 85vh;
+   */ background-color:rgb(235, 69, 69);*/
+    padding: 4em 4em;
+  }
+  
+  footer {
+    height:5vh;
+    display:flex;
+    justify-content: flex-end;
+    padding: 0 2vw;
+    align-items: center;
+  }
+
+header{
+    padding: 0; 
+    margin: 0;
+    box-sizing:border-box;
+    font-family: sans-serif;
+    display:flex;
+  justify-content: space-between;  
+  align-items: center;
+  background-color:rgb(218, 28, 28);
+  color: rgb(248, 240, 240);
+  }
+
+  .body {
+    margin: 10;
     padding: 0;
 }
 
@@ -18,7 +68,7 @@
 }
 
 .banner-container {
-    position: relative;
+ position: relative;
 }
 
 .banner-text {
@@ -65,6 +115,7 @@
 .capitais img {
     border-radius: 20px 0 0 20px;
     height: 100%;
+   
 }
 
 .capitais div:last-child {
