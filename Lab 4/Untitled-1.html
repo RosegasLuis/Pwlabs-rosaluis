@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <script>
+            let counter = 0;
+            function count(){
+                counter++;
+                let heading = document.querySelector('h1');
+            heading.innerHTML=`Contagem vai no ${counter}`;
+            }
+        </script>
+    </head>
+    <body>
+        <h1></h1>
+        <button onclick="count()">Conta</button>
+    </body>
+</html>

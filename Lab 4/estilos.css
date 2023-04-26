@@ -2,11 +2,12 @@
     height: 200px;
     background-color: violet;
     display: flex;
-    
     justify-content: flex;right: auto;
-
     vertical-align: flex-end;
     center:flex;right: auto;
+   
 } 
-
+.body{
+    color:brown
+}
 
