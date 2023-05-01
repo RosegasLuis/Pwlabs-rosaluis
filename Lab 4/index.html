@@ -1,41 +1,49 @@
 <!DOCTYPE html>
-<html lang="pt">
-    
-    <meta name="viewport"
-    content="widdth=device-width,initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="estilos.css" media="screen" />
-    <body>
-        <header>
-          <p>Hero Page</p>
-          <nav>
-            <a href="">home</a>      
-            <a href="">products</a>      
-            <a href="">about</a>      
-            <a href="">contact</a>      
-          </nav>
-        </header>
-        
-        <main>
-         <div id="contentainer">
-          <div>Entre céu e terra</div>
-    
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dark Mode</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/scripts.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h2>Light and Dark</h2>
+      <div>
+        <input type="checkbox" name="change-theme" id="change-theme" />
+        <label for="change-theme">
+          <i class="bi bi-sun"></i>
+          <i class="bi bi-moon"></i
+        ></label>
+      </div>
+    </header>
+    <main>
+      <div class="card">
+        <div class="card-image">
+          <span>Nike</span>
+          <img src="img/tenis.png" alt="Tenis" />
+        </div>
+        <div class="card-details">
+          <h2>Tênis Nike</h2>
+          <p class="subtitle">Excelente para corridas</p>
+          <p class="description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
+            officiis esse dolor eveniet quae quasi, similique quisquam? Maiores
+            cum eaque reprehenderit nostrum, quas accusantium, commodi eius eos
+            consequuntur, dolores hic.
+          </p>
+          <div class="price-container">
+            <span class="price">R$299,90</span>
+            <button class="btn">Comprar</button>
           </div>
-        </main>
-        
-        <div>
-          <article class="primeiro">
-          <p><b><i>Viajar? Para viajar basta existir.</i></b> Fernando Pessoa <br><br>Viajar? Para viajar basta existir. Vou de dia para dia, como de estação para estação, no comboio do meu corpo, ou do meu destino, debruçado sobre as ruas e as praças, sobre os gestos e os rostos, sempre iguais e sempre diferentes, como, afinal, as paisagens são.
-            <div>
-              <p id="Entre céu e terra">Entre céu e terra</p>
-            </div>
-      Se imagino, vejo. Que mais faço eu se viajo? Só a fraqueza extrema da imaginação justifica que se tenha que deslocar para sentir.</p>
-        </article>
-      
-      <article class='segundo'>
-        </article>
-      </div> 
-        <footer>
-          <p>rodapé</p>
-        </footer>  
-      </body>
-      
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
