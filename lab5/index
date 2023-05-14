@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+    <html lang="pt">
+    <meta name="viewport" content="widdth=device-width,initial-scale=1.0">
+
+    <head>
+        <title>Capitais Europeias</title>
+        <meta charset="utf-8">
+        <meta nome="autor" content="Rosa Luís">
+        <meta nome="description" content="Website sobre Madrid">
+        <meta nome="keywords" content="palavras chave">
+        <link rel="stylesheet" type="text/css" href="estilos.css" media="screen" />
+    </head>
+      <header>
+        <h1>Título do Cabeçalho</h1>
+      </header>
+    
+      <nav>
+        <ul>
+          <li>Item de Navegação 1</li>
+          <li>Item de Navegação 2</li>
+          <li>Item de Navegação 3</li>
+        </ul>
+      </nav>
+    
+      <main>
+        <h2>Título do Conteúdo Principal</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquam dolor quis scelerisque consectetur.</p>
+      </main>
+    
+      <article>
+        <h2>Título do Artigo</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquam dolor quis scelerisque consectetur.</p>
+      </article>
+    
+      <aside>
+        <h2>Título da Barra Lateral</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquam dolor quis scelerisque consectetur.</p>
+      </aside>
+    
+      <footer>
+        <p>Rodapé do Site</p>
+      </footer>
+    
+      <div class="grid-container">
+        <div class="grid-item">
+          <h2>Título do Elemento Grid 1</h2>
+          <p>Conteúdo do Elemento Grid 1</p>
+        </div>
+        <div class="grid-item">
+          <h2>Título do Elemento Grid 2</h2>
+          <p>Conteúdo do Elemento Grid 2</p>
+        </div>
+      </div>
+    </body>
+    </html>
+    

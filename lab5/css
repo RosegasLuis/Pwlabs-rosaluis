@@ -1,0 +1,137 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #e6f2ff;
+  padding: 20px;
+}
+
+nav {
+  background-color: #f9f9f9;
+  padding: 10px;
+}
+
+main {
+  background-image: url('caminho/para/imagem1.jpg');
+  background-size: cover;
+  padding: 20px;
+  color: white;
+}
+
+article {
+  background-color: #f6f6f6;
+  padding: 20px;
+}
+
+aside {
+  background-image: url('https://lh3.googleusercontent.com/pw/AJFCJaVtgHgDFrhzO8vqX_AoFal1nECCoMTDvew6EJDuBbSmyBf0IwqXL3__HGlANLXsDkXGKiamlqTYVabq-UYxPPwLUq_F-qIwUJu9bkJfBYQFhihzM19mQuckLsZ9I7DXQFrc0rBYqXuK-mkWRBYnvwMWsfRm0imxzuQkjgygHuRafMdB2KKJG1LxxNCk1099MKc5eALrzx0XkBi1plQuWhno-9ms9WeAAMV6ZHu577O2a7DtSolcGR2f3hgonHi1Jkyq-dCmqJ3mF51ShNv3aBXRWBvFF9P0kFoKhWNrRu_wdViULkJnRLF7w9Qk0JpbO8H2eO7uVXo5hzWjdJC47KARhsbW984Pc41APldIMUQWvWW6se0OOymvjCwxhcsWxSpNxMBBZwfqTj9NXwhfz6VM69v4A9LBssUScqSGBBhLYzetkBYrO4kt5GFlOWSJHaQc2ycSPEcbIOf70Fm2FYjeezaIyc-YitfMFb3u-0scdX2FluhzyBmLsYGXFJnknAFU96L8Aapyg34Ov2ZjdO0vvhhC9CPx5yQoPiojHi41BUCpKC4KCLnD94sdQdYnGkcGTxArJymNwhd8Lew6eRXURjplZEQk_QZgtGa1_L3VuPDXWwufUXEpEanI-aeSICKE8Y3rr5vEF4irIZUZ50XDbY8RasPWsgahRM4fqgaVCTAxommCKvfkrPrR--62GUjpz5jhCc6J7QBdUhWSldaFlwQYbKdg51_i5Povhlt5cmzI5xwtIRA5kcTnWeEVDn6uCOFKpGyrvZy2lGvoKrdlc3PbJzz8tPDlMOChXesRMa-YN-NoJ-FcCR5hMhDNZ88UVU_2q_tZQLSHmX0Rf8TAsTjc6lbrREZb_wvpMOto72lfQTPJ2s5VdfUqDuFscpgineat8Hqbes2c_pvY6FPZ6kw=w951-h880-s-no?authuser=0');
+  background-size: cover;
+  padding: 20px;
+  color: white;
+}
+
+footer {
+  background-color: #cccccc;
+  padding: 20px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.grid-item {
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
