@@ -4,7 +4,7 @@
             box-sizing:border-box;
             font-family: sans-serif;
             box-sizing: border-box;
-            margin: 0;
+
         }
         header div {
             font-size: 2em;  
@@ -219,5 +219,6 @@
         padding: 10px 0;
         font-size: 4vw;
       }
-      
-    
+      .alinhamento-direita {
+        text-align: right;
+      }
