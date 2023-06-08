@@ -1,6 +1,6 @@
 *{
     padding: 10px;
-    margin: 0;
+    margin: 2;
     background-color: #f8e3dd;
 }
 
@@ -8,7 +8,7 @@ header{
 
     color:#C55F4E ;
     padding: 10;
-
+ margin: 0;
 }
 header nav{
     padding: 10;
